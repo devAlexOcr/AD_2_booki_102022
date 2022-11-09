@@ -203,8 +203,8 @@ input{
 	font-family: "Raleway-Bold";
 	position: absolute;
 	display: flex;
-	width: 332px;
-	height: 49px;
+	width: 330px;
+	height: 47px;
 	border: 1px solid #f2f2f2;
 	border-radius: 15px 0px 0px 15px;
 	top: 199px;
@@ -475,27 +475,27 @@ top: 559px;
 	border-radius: 20px 0px 0px 20px;
 	object-fit: cover;
 }
-#text{
+.texte_populaire{
 	width: 206px;
 	height: 144px;
 	line-height: 19px;
 }
-#text h3{
+.texte_populaire h3{
 	width: 169px;
 	height: auto;
 	margin: 16px 0 0 16px;
 }
-#text p{
+.texte_populaire p{
 	width: 169px;
 	height: 15px;
 	margin: 7px 0 0 16px;	
 }
-#text .star{
+.texte_populaire .star{
 	position: relative;
 	bottom: -45px;
 }
 
-#text .star2{
+.texte_populaire .star2{
 	display: flex;
 	color: #0065FC;
 	font-size: 12px;
