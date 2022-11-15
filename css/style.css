@@ -51,7 +51,7 @@ table {
 }
 
 @font-face {
-	font-family: "Raleway-Semibold";
+	font-family: "Raleway-Regular";
 	src: url(Raleway/raleway-Regular.ttf);
 }
 
@@ -96,6 +96,12 @@ body >*{
 	width: 95%;
 	margin: auto;
 }
+main{
+	margin: 25px;
+}
+span{
+	font-family: "Raleway-Bold";
+}
 /* HEADER */
 
 header{
@@ -114,18 +120,13 @@ header img{
 
 header nav ul{
 	display: flex;
-	width: 381px;
 	height: 19px;
-	top: 48px;
-	left: 982px;
 	justify-content: flex-end;
 	align-items: center;
 }
 
 header li{
 	display: flex;
-	width: 162px;
-	height: 115px;
 	flex-direction: row;	
 }
 
@@ -154,6 +155,7 @@ header li{
 	justify-content: center;
 }
 #activite a{
+	font-family: "Raleway-Regular";
 	text-decoration: none;
 	font-size: 18px;
 }
@@ -169,7 +171,6 @@ header li{
 	font-size: 16px;
 	line-height: 19px;
 	margin-top: 8px;
-	font-family: "Raleway-Regular";
 }
 
 /* FORM */ 
@@ -220,6 +221,7 @@ input{
 	right: 162px;
 }
 #rechercher a{
+	font-family: "Raleway-Bold";
 	text-decoration: none;
 	font-size: 18px;
 	color: white;
@@ -230,13 +232,10 @@ input{
 #menu{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	width: 914px;
 	margin-top: 30px;
 }
-#menu h3{
-	width: 54px;
-	height: 21px;
+#menu h2{
+	width: 10%;
 	font-size: 22px;
 }
 #menu nav ul{
@@ -302,7 +301,7 @@ li i{
 /* Hébergements */
 
 #hebergements{
-	width: 63%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -322,6 +321,7 @@ li i{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 90%;
+	margin: 20px;
 }
 .resultat{
 	display: flex;
@@ -376,12 +376,14 @@ li i{
 	color: #f2f2f2;
 }
 #afficher_plus{
+	font-family: "Raleway-Bold";
 	width: 90%;
 	height: 21px;
 	font-size: 18px;
 	color: black;
 	text-decoration: none;
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 /* Populaires */
@@ -389,8 +391,7 @@ li i{
 #populaires{
 	display: flex;
 	flex-direction: column;
-	width: 33%;
-	height: 625px;
+	width: 100%;
 	background: #f2f2f2;
 	border-radius: 20px;
 	justify-content: space-around;
@@ -411,7 +412,7 @@ li i{
 }
 #cadre_populaire{
 	width: 80%;
-	margin: auto;
+	margin: 40px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -433,12 +434,12 @@ li i{
 	flex-direction: row;
 	text-decoration: none;
 	color: black;
-	border: 5px solid white;
 	border-radius: 20px;
 }
 .carte_populaire img{
 	width: 40%;
 	height: 144px;
+	border: 5px solid white;
 	border-radius: 20px 0px 0px 20px;
 	object-fit: cover;
 }
@@ -454,6 +455,7 @@ li i{
 	width: 80%;
 	margin: auto;
 	margin-top: 16px;
+	margin-bottom: 0;
 }
 .texte_populaire p{
 	width: 80%;
@@ -520,9 +522,8 @@ footer{
 	display: flex;
 	align-items: flex-start;
 	height: 225px;
-	margin-top: 60px;
+	margin-top: 35px;
 	background: #f2f2f2;
-	
 }
 
 footer div{
@@ -533,20 +534,36 @@ footer div{
 	margin-top: 45px;
 }
 footer h2{
-	font-size: 18px;
 	margin-bottom: 4px;
 }
 footer li{
 	width: auto;
-	height: 19px;
 	margin-top: 12px;
 }
 footer a{
 	text-decoration: none;
-		
+	font-family: "Raleway-Regular";	
 	color: black;
 }	
 
+@media all /*and (min-width: 768px)*/ and (max-width: 991px) {
 
+	#logements{
+		flex-direction: column;
+	}
+	#populaires h3{
+		width: 90%;
+	}
+	#cadre_populaire{
+		width: 90%;
+		flex-direction: row;
+	}
 
+	#menu{
+		width: 100%;
+	}
 
+	#menu nav ul{
+		width: 100%
+	}
+}
