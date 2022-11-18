@@ -1,0 +1,171 @@
+#logements{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+/* Hébergements */
+
+#hebergements{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #f2f2f2;
+	border-radius: 20px;
+	flex: 2;
+}
+
+#hebergements h3{
+	width: 90%;	
+	text-align: left;
+	margin-top: 40px;
+}
+#cadre_resultat{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 20px;
+}
+.resultat{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top: 30px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px 4px rgb(0,0,0,0.1);
+	background: white;
+}
+.resultat a{
+	text-decoration: none;
+	color: black;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+.resultat img{
+	width: 100%;
+	height: 114px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+.text{
+	display: flex;
+	flex-direction: column;
+	border-radius: 0px 0px 20px 20px;
+	width: 100%;
+    height: 85px;
+	background: white;
+	line-height: 16px;
+}
+.text h4{
+	font-size: 16px;
+	width: 85%;
+	margin: auto;
+}
+
+.text P{
+	width: 85%;
+	margin: auto;
+}
+.star{
+	display: flex;
+	color: #0065FC;
+	font-size: 12px;
+	width: 85%;
+	margin: auto;	
+	margin-bottom: 5px;
+}
+.star :nth-child(5n){
+	color: #f2f2f2;
+}
+#afficher_plus{
+	font-family: "Raleway-Bold";
+	width: 90%;
+	height: 21px;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Populaires */
+
+#populaires{
+	display: flex;
+	flex-direction: column;
+	background: #f2f2f2;
+	border-radius: 20px;
+	justify-content: space-around;
+	align-items: center;
+	flex: 1;
+}
+#populaires h3{
+	font-size: 22px;
+	width: 80%;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#populaires h3 i{
+	font-size: 18px;
+	color: #0065FC;	
+}
+#cadre_populaire{
+	width: 80%;
+	margin: 40px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 30px;
+}
+.carte_populaire{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 100%;
+	background: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px 4px rgb(0,0,0,0.1);
+}
+.carte_populaire a{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+}
+.carte_populaire img{
+	width: 40%;
+	height: 144px;
+	border: 5px solid white;
+	border-radius: 20px 0px 0px 20px;
+	object-fit: cover;
+}
+.texte_populaire{
+	width: 60%;
+	height: auto;
+	line-height: 19px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;	
+}
+.texte_populaire h4{
+	width: 80%;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+.texte_populaire p{
+	width: 80%;
+	margin: auto;
+	margin-top: 7px;	
+}

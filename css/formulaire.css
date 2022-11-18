@@ -1,0 +1,45 @@
+form{
+	display: flex;
+	margin-top: 20px;
+}
+#point{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+	background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 15px 0px 0px 15px;	
+}
+#point i{
+	display: flex;	
+}
+input{
+	font-family: "Raleway-Bold";
+	display: flex;
+	border: 1px solid #f2f2f2;
+	border-radius: 15px 0px 0px 15px;
+	font-size: 18px;
+	align-items: center;
+	padding: 0px 0px 0px 15px;
+	outline: none;
+}
+
+#rechercher{
+	background: #0065FC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0px 20px 20px 0px;
+	padding: 20px;
+}
+#rechercher a{
+	font-family: "Raleway-Bold";
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+
+#rechercher i{
+	display: none;
+}

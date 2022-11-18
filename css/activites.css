@@ -1,0 +1,50 @@
+#activites{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin-top: 60px;
+}
+#activites h3{
+	font-size: 22px;
+	width: auto;
+	height: 30.02px;
+}
+
+#cadre_activite{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	margin-top: 19px;	
+}
+.carte_activites{
+	width: 23%;
+	height: 444.51px;
+}
+.carte_activites a{
+	text-decoration: none;
+	color: black;
+}
+.carte_activites img{
+	width: 100%;
+	height: 444.51px;
+	border-radius: 20px;
+	object-fit: cover;	
+	box-shadow: 4px 4px 8px 4px rgb(0,0,0,0.1);
+}
+.carte_activites div{
+	width: 100%;
+	height: 56px;
+	background: white;
+	border-radius: 0px 0px 20px 20px;
+	position: relative;
+	bottom: 59px;
+	font-size: 16px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.carte_activites div p{
+	margin-left: 19px;
+	font-family: "Raleway-Bold";
+}

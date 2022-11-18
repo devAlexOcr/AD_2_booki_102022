@@ -1,0 +1,41 @@
+header{
+	display: flex;
+	align-items: center;
+	height: 111px;
+}
+
+#booki{
+	width: 100%;
+}
+header img{
+	width: 61px;
+}
+
+header nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header li{
+	display: flex;
+	flex-direction: row;
+	width: 162px;
+	height: 109px;	
+}
+
+#hebergement, #activite{
+	align-items: center;
+	justify-content: center;
+	font-family: "Raleway-Regular"
+}
+
+#hebergement:hover, #activite:hover{
+	border-top: 2px solid #0065FC;
+}
+
+#hebergement a, #activite a{
+	font-family: "Raleway-Regular";
+	text-decoration: none;
+	font-size: 18px;
+}

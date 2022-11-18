@@ -1,0 +1,36 @@
+#filtres{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+#filtres h2{
+	width: 10%;
+	font-size: 22px;
+}
+#filtres nav{
+	width: 820px;
+}
+#filtres nav ul{
+	font-family: "Raleway-Bold";
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+}
+#filtres li{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #d9d9d9;
+	border-radius: 25px;
+	width: auto;
+	padding: 10px 20px 10px 10px;
+}
+#filtres li:hover{
+	background: #DEEBFF;
+}
+li i{
+	font-size: 22px;
+	margin-right: 10px;
+	color: #0065FC;
+	padding-left: 10px;
+}

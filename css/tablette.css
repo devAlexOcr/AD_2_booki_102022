@@ -1,0 +1,21 @@
+@media all and (max-width: 993px) {
+
+	#logements{
+		flex-direction: column;
+	}
+	#populaires h3{
+		width: 90%;
+	}
+	#cadre_populaire{
+		width: 90%;
+		flex-direction: row;
+	}
+
+	#menu{
+		width: 100%;
+	}
+
+	#menu nav ul{
+		width: 100%
+	}
+}
