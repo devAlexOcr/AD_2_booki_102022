@@ -1,4 +1,4 @@
-@media all and (max-width:768px){
+@media all and (max-device-width:767px){
 	
 	header{
 		flex-direction: column;
@@ -110,13 +110,12 @@
 	}
 
 	 footer{
-		width: 100%;
 		flex-direction: column;
 		padding-bottom: 150px;
 		margin-top: 0;
 		height: auto;
 	 }
-	 
+
 	 footer div{
 		margin-left: 30px;
 	 }
