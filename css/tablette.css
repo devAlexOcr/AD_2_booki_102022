@@ -11,11 +11,11 @@
 		flex-direction: row;
 	}
 
-	#menu{
+	#filtres{
 		width: 100%;
 	}
 
-	#menu nav ul{
+	#filtres nav{
 		width: 100%
 	}
 }

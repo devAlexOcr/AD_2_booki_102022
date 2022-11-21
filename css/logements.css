@@ -145,14 +145,14 @@
 }
 .carte_populaire img{
 	width: 40%;
-	height: 144px;
+	height: 160px;
 	border: 5px solid white;
 	border-radius: 20px 0px 0px 20px;
 	object-fit: cover;
 }
 .texte_populaire{
 	width: 60%;
-	height: auto;
+	height: 160px;
 	line-height: 19px;
 	display: flex;
 	flex-direction: column;
