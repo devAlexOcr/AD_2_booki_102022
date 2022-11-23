@@ -53,7 +53,7 @@
 	border-radius: 20px 20px 0px 0px;
 	object-fit: cover;
 }
-.text{
+.figcaption_resultat{
 	display: flex;
 	flex-direction: column;
 	border-radius: 0px 0px 20px 20px;
@@ -62,13 +62,13 @@
 	background: white;
 	line-height: 16px;
 }
-.text h4{
+.figcaption_resultat h4{
 	font-size: 16px;
 	width: 85%;
 	margin: auto;
 }
 
-.text P{
+.figcaption_resultat P{
 	width: 85%;
 	margin: auto;
 }
@@ -86,7 +86,6 @@
 #afficher_plus{
 	font-family: "Raleway-Bold";
 	width: 90%;
-	height: 21px;
 	font-size: 18px;
 	color: black;
 	text-decoration: none;
@@ -150,7 +149,7 @@
 	border-radius: 20px 0px 0px 20px;
 	object-fit: cover;
 }
-.texte_populaire{
+.figcaption_populaire{
 	width: 60%;
 	height: 160px;
 	line-height: 19px;
@@ -158,13 +157,13 @@
 	flex-direction: column;
 	align-items: stretch;	
 }
-.texte_populaire h4{
+.figcaption_populaire h4{
 	width: 80%;
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 0;
 }
-.texte_populaire p{
+.figcaption_populaire p{
 	width: 80%;
 	margin: auto;
 	margin-top: 7px;	

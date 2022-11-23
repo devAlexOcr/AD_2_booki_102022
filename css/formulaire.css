@@ -1,6 +1,7 @@
 form{
 	display: flex;
 	margin-top: 20px;
+	height: 50px;
 }
 #point{
 	display: flex;
@@ -18,10 +19,9 @@ input{
 	font-family: "Raleway-Bold";
 	display: flex;
 	border: 1px solid #f2f2f2;
-	border-radius: 15px 0px 0px 15px;
 	font-size: 18px;
 	align-items: center;
-	padding: 0px 0px 0px 15px;
+	padding-left: 15px;
 	outline: none;
 }
 

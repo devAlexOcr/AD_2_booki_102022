@@ -32,7 +32,7 @@
 	object-fit: cover;	
 	box-shadow: 4px 4px 8px 4px rgb(0,0,0,0.1);
 }
-.carte_activites div{
+.carte_activites .figcaption_activite{
 	width: 100%;
 	height: 56px;
 	background: white;
@@ -44,7 +44,7 @@
 	justify-content: left;
 	align-items: center;
 }
-.carte_activites div p{
+.carte_activites .figcaption_activite p{
 	margin-left: 19px;
 	font-family: "Raleway-Bold";
 }

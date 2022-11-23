@@ -1,5 +1,8 @@
-@media screen and (max-width: 991px) and (min-width:768px) {
+@media screen and (max-device-width: 991px) and (min-device-width:768px) {
 
+	#hebergement a, #activite a{
+		font-size: 16px;
+	}
 	#logements{
 		flex-direction: column;
 	}
@@ -14,7 +17,9 @@
 	#filtres{
 		width: 100%;
 	}
-
+	#filtre h2{
+		font-size: 18px;
+	}
 	#filtres nav{
 		width: 100%
 	}

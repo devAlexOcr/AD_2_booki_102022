@@ -6,9 +6,6 @@
 @import url(logements.css);
 @import url(activites.css);
 @import url(footer.css);
-@import url(tablette.css);
-@import url(mobile.css);
-
 
 @font-face{
 	font-family: "Raleway-Bold";
@@ -28,6 +25,9 @@ body{
 	margin: auto;
 }
 
+body >*{
+	width: 95%;
+}
 h1{
 	font-family: "Raleway-Bold";
 	font-size: 22px;
@@ -41,8 +41,6 @@ h2{
 h3{
 	font-family: "Raleway-Bold";
 	font-size: 22px;
-	width: auto;
-	height: 26px;
 }
 
 h4{
@@ -57,19 +55,10 @@ li{
 	list-style: none;
 }
 
-main p{	
-	font-size: 16px;
-	line-height: 19px;
-	margin-top: 8px;
-}
-
 span{
 	font-family: "Raleway-Bold";
 }	
 
-@media screen and (min-width: 768px)
-{
-	body >*{
-		width: 95%;
-	}
+#sous_titre{
+	margin-top: 8px;
 }

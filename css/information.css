@@ -1,5 +1,4 @@
 #icone{
-	font-size: 10px;
 	margin-right: 11px;
 	width: 24px;
 	height: 24px;
@@ -9,6 +8,10 @@
 	align-items: center;
 	justify-content: center;
 	color: #0065FC;
+}
+#icone i{
+	font-size: 12px;
+	padding: 12px 12px;
 }
 
 #information{
