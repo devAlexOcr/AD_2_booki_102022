@@ -1,4 +1,5 @@
 @import url(normalize.css);
+@import url(general.css);
 @import url(header.css);
 @import url(formulaire.css);
 @import url(filtres.css);
